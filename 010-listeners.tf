@@ -16,7 +16,7 @@ resource "openstack_lb_listener_v2" "listener" {
 
 module "pools" {
   source  = "app.terraform.io/Seedbox/pool/openstack"
-  version = "1.0.1"
+  version = "1.1.0"
   count = length(var.pools)
 
   name = var.pools[count.index].name
