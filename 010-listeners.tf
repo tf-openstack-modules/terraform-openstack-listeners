@@ -15,7 +15,8 @@ resource "openstack_lb_listener_v2" "listener" {
 }
 
 module "pools" {
-  source = "git@gitlab.com:loulou-bobi-action/terraform/openstack/modules/terraform-openstack-pool.git"
+  source  = "app.terraform.io/Seedbox/pool/openstack"
+  version = "1.0.1"
   count = length(var.pools)
 
   name = var.pools[count.index].name
