@@ -1,3 +1,10 @@
+## [1.0.2](https://gitlab.com/loulou-bobi-action/terraform/openstack/modules/terraform-openstack-listeners/compare/v1.0.1...v1.0.2) (2020-11-19)
+
+
+### Bug Fixes
+
+* call new version pools module ([d577192](https://gitlab.com/loulou-bobi-action/terraform/openstack/modules/terraform-openstack-listeners/commit/d577192795279183210f337aaa547edbc27b314c))
+
 ## [1.0.1](https://gitlab.com/loulou-bobi-action/terraform/openstack/modules/terraform-openstack-listeners/compare/v1.0.0...v1.0.1) (2020-11-19)
 
 
